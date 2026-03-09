@@ -1,1 +1,246 @@
-/* место для вашего кода */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 293px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.header_logo-image-black{
+    max-width: 148px;
+    max-height: 105px;
+}
+.header_menu{
+    margin: 133px 31.52px 138px 50px;   
+}
+.item{
+    font-size: 18px;
+    font-weight: 400;
+}
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.item_menu{
+    margin: 133 36.52 138 50;
+}
+.logo-black{
+    flex-grow: 0;
+    padding-top: 91px; ;
+    margin: 1.16px 9.86px 0.81px 9.03px;
+    justify-content: flex-start;
+
+    
+}
+.item_1{
+    margin-left: 13px;
+    margin-right: 12.48px;
+}
+.item_2{
+     margin-left: 12.52px;
+    margin-right: 13.48px;
+}
+.header_address{
+    margin-top: 95px;
+    margin-left: 182px;
+    flex-grow: 1;
+
+}
+a.address{
+    display: block;
+    text-transform:lowercase;
+    font-size: 18px;
+    
+}
+p.address_street{
+    
+    text-transform:lowercase;
+    font-size: 18px;
+    font-weight: 400;
+}
+.slova_adressa{
+    width: 240px;
+    height: 98px;
+    margin-top: 95px;
+    font-weight: 400;
+}
+.cover{
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 757px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.overlay {
+    opacity: 0.6;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.cover_title{
+    color: #FFF;
+    z-index: 1;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 114.99999999999999%;
+    text-transform: uppercase;
+    display: grid;
+    padding: 165px 50px 0;
+    gap: 25px;
+    letter-spacing:30px;
+}
+.cover__description {
+    color: #FFF;
+    z-index: 1;
+    margin: 15px 50px 50px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    gap: 107px;
+}
+.aligned-text_left {
+    display: block;
+}
+.aligned-text_center{
+    display: block;
+    padding-left: 330.5px;
+}
+.aligned-text_right{
+    display: block;
+    padding-left:610px ;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-style: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: Raleway, sans-serif;
+  min-width: 257px;
+  min-height: 52px;
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.lots{
+    margin: 180px 24px 0;
+}
+
+.lots__heading {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+.lots__card-list {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  list-style: none;
+  margin: 28px 0;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.cards {
+    
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 563px;
+  width: 334px;
+  padding: 50px 40px;
+  justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cards .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 0; 
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.card__title {
+  z-index: 1;
+  color: #fff;
+  font-size: 22px;
+  line-height: 115%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  z-index: 1;
+  color: #fff;
+  font-size: 20px;
+}
+
+.lots__look-more-link {
+    position: relative;
+  font-size: 20px;
+  margin-left: 14px;
+  text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.about{
+    margin: 120px 24px 0; 
+}
+.about__logo{
+   width: 240px;
+  height: 240px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.about__logo-image{
+    width: 148px;
+    height: 114px; 
+
+}
+.about__column{
+  width: 693px;
+  height: 449px;  
+}
+.about__title{
+    
+}
