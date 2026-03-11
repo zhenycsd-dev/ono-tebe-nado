@@ -221,7 +221,12 @@ p.address_street{
 }
 
 .about{
-    margin: 120px 24px 0; 
+  margin: 120px 24px 180px;
+  display: grid;
+  grid-template-columns: 335px 1fr;
+  justify-items: center;
+  padding-top: 2px;
+
 }
 .about__logo{
    width: 240px;
@@ -238,9 +243,48 @@ p.address_street{
 
 }
 .about__column{
+  padding-left: 25px;
   width: 693px;
   height: 449px;  
 }
 .about__title{
-    
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 100px 0;
+}
+
+.footer {
+  display: flex;
+  margin: 0 50px 90px;
+  justify-content: space-between;
+}
+
+.footer__links-list {
+  list-style: none;
+  text-align: center;
+}
+
+.footer__link {
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.footer__link_active {
+  border-bottom: none;
+}
+
+.footer__menu {
+  margin-left: 34px;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__social-list-item {
+  width: 48px;
 }
