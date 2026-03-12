@@ -13,7 +13,7 @@
 }
 
 .header_menu{
-    margin: 133px 31.52px 138px 50px;   
+    margin: 133px 31.52px 138px 50px;
 }
 
 .item{
@@ -200,7 +200,7 @@ p.address_street{
   height: 100%;
   background-color: black;
   opacity: 0.6;
-  z-index: 0; 
+  z-index: 0;
 }
 
 .card_type_film {
@@ -259,12 +259,12 @@ p.address_street{
 .about__logo-image{
     width: 148px;
     height: 114px; 
-
 }
+
 .about__column{
   padding-left: 25px;
   width: 693px;
-  height: 449px;  
+  height: 449px;
 }
 
 .about__title{
