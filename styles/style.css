@@ -32,7 +32,7 @@
 
 .logo-black {
     flex-grow: 0;
-    padding-top: 91px; ;
+    padding-top: 91px;
     margin: 1.16px 9.86px 0.81px 9.03px;
     justify-content: flex-start;
 }
@@ -177,7 +177,7 @@ p.address_street {
   text-decoration: none;
 }
 
-.cards {    
+.cards {
   position: relative;
   display: flex;
   flex-direction: column;
