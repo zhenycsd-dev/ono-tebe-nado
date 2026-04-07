@@ -59,14 +59,14 @@ address {
 }
 
 a.address {
-display: block; 
-width: fit-content; 
-text-transform: lowercase;
-font-size: 18px;
-font-family: Raleway, sans-serif;
-font-style: normal;
-text-decoration: none;
-border-bottom: 1px solid #000;
+  display: block;
+  width: fit-content; 
+  text-transform: lowercase;
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
 }
 
 p.address_street {
