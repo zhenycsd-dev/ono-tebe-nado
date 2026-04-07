@@ -137,7 +137,7 @@ p.address_street {
 
 .aligned-text_right {
     display: block;
-    padding-left:610px ;
+    padding-left:600px ;
 }
 
 .cover__description-text {
@@ -269,17 +269,19 @@ p.address_street {
 }
 
 .about__column {
-  padding-left: 25px;
+  padding-left: 15px;
   width: 693px;
   height: 449px;
 }
 
 .about__text_pt1{
-  font-weight: 20px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .about__text_pt2{
-  font-weight: 20px;
+  font-size: 20px;
+  font-weight: 400;
   margin-top: 24px;
 }
 
@@ -292,7 +294,7 @@ p.address_street {
 
 .footer {
   display: flex;
-  margin: 0 50px 90px;
+  padding: 180px 50px 90px;
   justify-content: space-between;
 }
 
@@ -302,6 +304,7 @@ p.address_street {
 }
 
 .footer__link {
+  
   font-size: 18px;
   text-decoration: none;
   border-bottom: 1px solid;
