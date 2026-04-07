@@ -238,15 +238,15 @@ p.address_street {
 }
 
 .lots__look-more-link {
-    position: relative;
+  position: relative;
   font-size: 20px;
-  margin-left: 14px;
+  margin-left: 40px;
   text-decoration: none;
-    border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .about {
-  margin: 120px 24px 180px;
+  margin: 155px 24px 180px;
   display: grid;
   grid-template-columns: 335px 1fr;
   justify-items: center;
@@ -272,6 +272,15 @@ p.address_street {
   padding-left: 25px;
   width: 693px;
   height: 449px;
+}
+
+.about__text_pt1{
+  font-weight: 20px;
+}
+
+.about__text_pt2{
+  font-weight: 20px;
+  margin-top: 24px;
 }
 
 .about__title {
